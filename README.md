@@ -10,7 +10,7 @@
 > интерфейси барнома».
 > Rest API як API мушаххасест, ки бо номи REST,
 > тавсифи протоколи ҳамкорӣ бо хидмати веб.
-> [![N|Solid](./imgs/Rest_api_2.jpg)
+> ![N|Solid](./imgs/Rest_api_2.jpg)
 
 ---
 
@@ -38,6 +38,7 @@ console.log(data);
 }
 catch (error) {
 console.log(error)
+}
 }
 ```
 
@@ -101,11 +102,12 @@ const deleteUser= async (id) => {
 try {
 const response = await fetch(“...“,
 {
-method: “DELETE",
+method: "DELETE"
 });
 }
 catch (error) {
 console.log(error)
+}
 }
 
 ```
